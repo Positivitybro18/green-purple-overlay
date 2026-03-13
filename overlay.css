@@ -1,0 +1,24 @@
+/* Controller body shadow */
+.controller {
+  filter: drop-shadow(0 0 8px #39ff14);
+}
+
+/* Pressed buttons */
+.button.pressed {
+  fill: #39ff14 !important;
+}
+
+/* Analog sticks */
+.stick {
+  fill: #39ff14 !important;
+}
+
+/* Button outlines */
+.button {
+  stroke: #7b2cff !important;
+}
+
+/* Transparent background */
+body {
+  background: transparent !important;
+}
