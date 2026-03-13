@@ -157,7 +157,7 @@ background-position: 0 -70px;
     position: absolute;
     width: 55px;
     height: 55px;
-    background: url(ps4-assets/face.svg);
+    background: url(https://i.imgur.com/N6HSKKC.png);
 }
 
 .ds4 .button.pressed {
@@ -229,7 +229,7 @@ background-position: 0 -70px;
 }
 
 .ds4 .face {
-    background: url(https://i.imgur.com/N6HSKKC.png);
+    background: url(https://i.imgur.com/aWnpxmF.png);
     position: absolute;
 }
 
@@ -277,4 +277,5 @@ background-position: 0 -70px;
 }
 
 /*END PS4 Controller Styling*/
+
 
