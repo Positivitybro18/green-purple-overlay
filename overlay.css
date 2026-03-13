@@ -1,4 +1,5 @@
-.controller.ds4 {
+.controller.ds4,
+.controller.dualsense {
     background: url(https://lethalmaus.github.io/GamepadViewerSkins/kdence/base.svg);
 }
 
@@ -75,3 +76,4 @@
 .ds4.white .face {
     background-image: url(https://lethalmaus.github.io/GamepadViewerSkins/kdence/dpad.svgz);
 }
+
