@@ -1,6 +1,6 @@
 /*BEGIN PS4 Controller Styling*/
 .controller.ds4 {
-    background: url(https://imgur.com/a/Xi6Koln.png);
+    background: url(https://i.imgur.com/u8coPr5.png);
     height: 598px;
     width: 806px;
     /*    margin-left: -403px;
@@ -12,7 +12,7 @@
 }
 
 .ds4.disconnected div {
-    opacity: 0 !important;
+    display: none;
 }
 
 .ds4 .triggers {
@@ -229,7 +229,7 @@ background-position: 0 -70px;
 }
 
 .ds4 .face {
-    background: url(ps4-assets/dpad.svg);
+    background: url(https://i.imgur.com/N6HSKKC.png);
     position: absolute;
 }
 
@@ -277,5 +277,4 @@ background-position: 0 -70px;
 }
 
 /*END PS4 Controller Styling*/
-
 
