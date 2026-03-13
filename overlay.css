@@ -1,6 +1,6 @@
 .controller.ds4,
 .controller.dualsense {
-    background: url(https://lethalmaus.github.io/GamepadViewerSkins/kdence/base.svg);
+    background: url(https://raw.githubusercontent.com/Positivitybro18/green-purple-overlay/main/base.svg);
 }
 
 .ds4.disconnected {
@@ -76,4 +76,5 @@
 .ds4.white .face {
     background-image: url(https://lethalmaus.github.io/GamepadViewerSkins/kdence/dpad.svgz);
 }
+
 
