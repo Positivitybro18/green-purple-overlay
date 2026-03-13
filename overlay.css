@@ -1,29 +1,77 @@
-/* make controller glow green */
-.controller {
-  filter: drop-shadow(0px 0px 12px #39ff14) !important;
+.controller.ds4 {
+    background: url(https://lethalmaus.github.io/GamepadViewerSkins/kdence/base.svg);
 }
 
-/* face buttons when pressed */
-.pressed {
-  fill: #39ff14 !important;
+.ds4.disconnected {
+    background: url(https://lethalmaus.github.io/GamepadViewerSkins/kdence/disconnected.svgz);
 }
 
-/* joystick caps */
-.stick {
-  fill: #39ff14 !important;
+.ds4 .trigger {
+    background: url(https://lethalmaus.github.io/GamepadViewerSkins/kdence/triggers.svgz);
 }
 
-/* outlines */
-.button {
-  stroke: #7b2cff !important;
+.ds4 .bumper {
+    background: url(https://lethalmaus.github.io/GamepadViewerSkins/kdence/bumper.svgz) no-repeat;
 }
 
-/* triggers */
-.trigger {
-  fill: #39ff14 !important;
+.ds4 .touchpad.pressed {
+    background: url(https://lethalmaus.github.io/GamepadViewerSkins/kdence/touchpad.svgz) no-repeat center;
 }
 
-/* background transparent */
-body {
-  background: transparent !important;
+.ds4 .meta.pressed {
+    background: url(https://lethalmaus.github.io/GamepadViewerSkins/kdence/meta.svgz) no-repeat center;
+}
+
+.ds4 .back, .ds4 .start {
+    background: url(https://lethalmaus.github.io/GamepadViewerSkins/kdence/start.svgz);
+}
+
+/* disabled so buttons stay separate
+.ds4 .button {
+    background: url(https://lethalmaus.github.io/GamepadViewerSkins/kdence/face.svgz);
+}
+*/
+
+.ds4 .stick {
+    background: url(https://lethalmaus.github.io/GamepadViewerSkins/kdence/sticks.svgz);
+}
+
+.ds4 .face {
+    background: url(https://lethalmaus.github.io/GamepadViewerSkins/kdence/dpad.svgz);
+}
+
+.controller.ds4.white {
+    background-image: url(https://lethalmaus.github.io/GamepadViewerSkins/kdence/base.svg);
+}
+
+.ds4.white.disconnected {
+    background: url(https://lethalmaus.github.io/GamepadViewerSkins/kdence/disconnected.svgz);
+}
+
+.ds4.white .trigger {
+    background-image: url(https://lethalmaus.github.io/GamepadViewerSkins/kdence/triggers.svgz);
+}
+
+.ds4.white .bumper {
+    background-image: url(https://lethalmaus.github.io/GamepadViewerSkins/kdence/bumper.svgz);
+}
+
+.ds4.white .touchpad.pressed {
+    background-image: url(https://lethalmaus.github.io/GamepadViewerSkins/kdence/touchpad.svgz);
+}
+
+.ds4.white .back, .ds4.white .start {
+    background-image: url(https://lethalmaus.github.io/GamepadViewerSkins/kdence/start.svgz);
+}
+
+.ds4.white .button {
+    background-image: url(https://lethalmaus.github.io/GamepadViewerSkins/kdence/face.svgz);
+}
+
+.ds4.white .stick {
+    background-image: url(https://lethalmaus.github.io/GamepadViewerSkins/kdence/sticks.svgz);
+}
+
+.ds4.white .face {
+    background-image: url(https://lethalmaus.github.io/GamepadViewerSkins/kdence/dpad.svgz);
 }
