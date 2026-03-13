@@ -1,24 +1,29 @@
-/* Controller body shadow */
+/* make controller glow green */
 .controller {
-  filter: drop-shadow(0 0 8px #39ff14);
+  filter: drop-shadow(0px 0px 12px #39ff14) !important;
 }
 
-/* Pressed buttons */
-.button.pressed {
+/* face buttons when pressed */
+.pressed {
   fill: #39ff14 !important;
 }
 
-/* Analog sticks */
+/* joystick caps */
 .stick {
   fill: #39ff14 !important;
 }
 
-/* Button outlines */
+/* outlines */
 .button {
   stroke: #7b2cff !important;
 }
 
-/* Transparent background */
+/* triggers */
+.trigger {
+  fill: #39ff14 !important;
+}
+
+/* background transparent */
 body {
   background: transparent !important;
 }
